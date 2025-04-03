@@ -1,3 +1,6 @@
 -- CREATE TABLE emp(empid INTEGER NOT NULL PRIMARY KEY, empname TEXT NOT NULL, email NOT NULL);
 
-INSERT INTO emp(emoid,empname,email)
+-- INSERT INTO emp(empid,empname,email)
+-- VALUES (4, "Divine", "test3@gmail.com");
+
+SELECT * FROM emp;
