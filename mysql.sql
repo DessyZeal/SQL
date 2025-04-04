@@ -3,4 +3,4 @@
 -- INSERT INTO emp(empid,empname,email)
 -- VALUES (7, "Fortune", "test7.gmail.com");
 
--- SELECT * FROM emp;
+SELECT * FROM emp;
