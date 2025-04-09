@@ -3,4 +3,5 @@
 -- INSERT INTO emp(empid,empname,email)
 -- VALUES (5, "Fort", "test5@gmail.com");
 
-SELECT "email" FROM "emp";
+-- SELECT * FROM "emp";
+SELECT COUNT(DISTINCT "empname") FROM "emp";
