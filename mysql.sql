@@ -4,4 +4,6 @@
 -- VALUES (5, "Fort", "test5@gmail.com");
 
 -- SELECT * FROM "emp";
-SELECT COUNT(DISTINCT "empname") FROM "emp";
+-- SELECT COUNT(DISTINCT "empname") FROM "emp";
+SELECT * FROM "emp"
+WHERE empname= 'Divine';
